@@ -4,7 +4,7 @@ import styled from "styled-components";
 import {Bio} from "../../data/constant";
 import Typewriter from "typewriter-effect";
 import HeroImg from '../../images/photo.jpeg'
-import HeroBgAnimation from "./HeroBgAnimation"
+import HeroBgAnimation from "../HeroBgAnimation"
 
 const HeroContainer = styled.div`
     background: ${({ theme }) => theme.card_light};
@@ -30,7 +30,7 @@ const HeroContainer = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 85%;
   height: 100%;
   max-width: 1360px;
   overflow: hidden;
@@ -210,6 +210,7 @@ const Hero = () => {
         <div id="about">
             <HeroContainer>
                 <HeroBg>
+                  <HeroBgAnimation />
                 </HeroBg>
                 <HeroInnerContainer>
                     <HeroLeftContainer id="Left">

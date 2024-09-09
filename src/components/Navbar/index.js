@@ -5,8 +5,8 @@ import styled, { useTheme } from "styled-components";
 import { Link as LinkR} from "react-router-dom";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars  } from "react-icons/fa";
+// import { Bio } from '../../data/constant';
 import { Bio } from '../../data/constant';
-// import { useTheme } from 'styled-components';
 
 
 const Nav = styled.div`
@@ -179,7 +179,7 @@ const Navbar = () => {
           cursor: "pointer",
         }} >
           <DiCssdeck size="3rem" />
-          <span>Portfolio</span>
+          <span>Vinita Portfolio</span>
         </a>
 
         </NavLogo>
@@ -228,10 +228,7 @@ const Navbar = () => {
               setIsOpen(!isOpen);
             }}>Education</MobileMenuLink>
 
-          <GitHubButton style=
-              {{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} 
-              href={Bio.github} target="_blank">Github Profile
-          </GitHubButton>
+          <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="display">Github Profile</GitHubButton>
           </MobileMenu>
         
       }
