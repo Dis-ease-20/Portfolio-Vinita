@@ -2,7 +2,7 @@ export const Bio = {
     name: "Vinita Kumari Pal",
     roles: [
       "Full Stack Developer",
-      "Machine Learning Enthusiate",
+      "Machine Learning Enthusiast",
       "Web Developer",
       "Programmer",
       "Doodler"
@@ -11,7 +11,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/dis-ease-20/",
     resume:
-      "https://drive.google.com/file/d/1xxzyzTjfidvXQjZcOcLjyv4U3syg0qV2/view?usp=sharing",
+      "https://drive.google.com/file/d/1xAlkrSkAfvNxVkNKs_kqakUqzLylME9y/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/vinitapal/",
     // twitter: "https://twitter.com/dumy",
     // insta: "https://www.instagram.com/dummy/",
